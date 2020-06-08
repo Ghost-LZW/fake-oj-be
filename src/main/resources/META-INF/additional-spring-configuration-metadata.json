@@ -1,0 +1,23 @@
+{
+  "properties": [
+    {
+      "name": "spring",
+      "type": "java.lang.String",
+      "description": "Description for spring."
+    },
+    {
+      "name": "useLegacyDatetimeCode",
+      "type": "java.lang.String",
+      "description": "Description for useLegacyDatetimeCode."
+    },
+    {
+      "name": "server",
+      "type": "java.lang.String",
+      "description": "Description for server."
+    },
+    {
+      "name": "server",
+      "type": "java.lang.String",
+      "description": "Description for server."
+    }
+  ] }
