@@ -13,5 +13,5 @@ public class GaoOjBeApplication {
     public static void main(String[] args) {
         SpringApplication.run(GaoOjBeApplication.class, args);
     }
-    
+
 }

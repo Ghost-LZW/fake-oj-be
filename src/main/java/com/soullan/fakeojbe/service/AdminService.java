@@ -40,7 +40,7 @@ public class AdminService extends BaseService {
         userRoleEntity.setUid(user.getUserId());
         userRoleEntity.setRid(1);
         userRoleMapper.insert(userRoleEntity);
-        userRoleEntity.setRid(2);
+        userRoleEntity.setRid(3);
         userRoleMapper.insert(userRoleEntity);
         return "unlock";
     }

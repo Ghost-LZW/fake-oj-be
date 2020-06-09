@@ -7,12 +7,14 @@ import com.soullan.fakeojbe.modle.entity.UserEntity;
 import com.soullan.fakeojbe.modle.vo.RankPageInfoVo;
 import com.soullan.fakeojbe.modle.vo.RankVo;
 import com.soullan.fakeojbe.util.UserUtil;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Slf4j
 @Service
 public class RankService extends BaseService {
     private final UserService userService;

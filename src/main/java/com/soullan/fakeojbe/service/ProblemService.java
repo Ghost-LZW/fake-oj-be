@@ -89,10 +89,20 @@ public class ProblemService extends BaseService {
             statueEntity.setContent(answer);
 
             ProblemEntity problem = problemMapper.selectById(pid);
+
+            SubmitStatusEntity se = new SubmitStatusEntity();
+            se.setPid(pid);
+            se.setAuthor(user.getUserId());
+            se.setStatus(status);
+            QueryWrapper<SubmitStatusEntity> wrapper = new QueryWrapper<>(se).last("LIMIT 1");
+
+            boolean never = true;
+            if (statusMapper.selectOne(wrapper) != null) never = false;
+
             problem.setSubmitCount(problem.getSubmitCount() + 1);
             user.setUserSubmitCount(user.getUserSubmitCount() + 1);
             if (status == 1) {
-                user.setUserSolvedCount(user.getUserSolvedCount() + 1);
+                if (never) user.setUserSolvedCount(user.getUserSolvedCount() + 1);
                 problem.setSolvedCount(problem.getSolvedCount() + 1);
             }
             problemMapper.updateById(problem);
