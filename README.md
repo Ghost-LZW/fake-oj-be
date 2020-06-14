@@ -7,7 +7,7 @@ java web 大作业 , 取OJ形而不取其意， 仿欧拉计划, 答案判题
 
 使用流行技术栈, springboot+vue+element-ui， 前后端分离
 
-前端: <https://github.com/Ghost-LZW/fake-oj-be>
+前端: <https://github.com/Ghost-LZW/fake-oj-fe>
 
 使用shiro做授权管理，redis实现缓存处理
 
