@@ -6,7 +6,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/test?serverTimezone=GMT%2b8&useUnicode=true&characterEncoding=utf-8
     username: root
-    password: Lan541686
+    password: 451266884
 
   jackson:
     time-zone: GMT+8
