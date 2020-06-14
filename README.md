@@ -2,7 +2,7 @@
 
 ## 简介
 
-java web 大作业, 取OJ形而不取其意， 仿欧拉计划, 答案判题
+java web 大作业 , 取OJ形而不取其意， 仿欧拉计划, 答案判题
 <del>(O(1)判题，judge姬几句话，无敌</del>
 
 使用流行技术栈, springboot+vue+element-ui， 前后端分离
@@ -17,7 +17,7 @@ java web 大作业, 取OJ形而不取其意， 仿欧拉计划, 答案判题
 
 ### SpringBoot
 
-* 持久层 -- mybatisPlus
+* 持久层 -- mybatisPlus + 分页插件
 
 * 授权管理 -- shiro
 
