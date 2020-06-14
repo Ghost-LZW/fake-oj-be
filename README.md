@@ -9,6 +9,8 @@ java web 大作业 , 取OJ形而不取其意， 仿欧拉计划, 答案判题
 
 前端: <https://github.com/Ghost-LZW/fake-oj-fe>
 
+<hr>
+
 使用shiro做授权管理，redis实现缓存处理
 
 演示地址: [fakeoj.soullan.com](http://fakeoj.soullan.com)
@@ -31,7 +33,7 @@ java web 大作业 , 取OJ形而不取其意， 仿欧拉计划, 答案判题
 
 * Redis: 用户缓存
 
-## 工程结构
+## 项目结构
 
 ``` text
 ├─src
