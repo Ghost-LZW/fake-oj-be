@@ -61,6 +61,12 @@ java web 大作业 , 取OJ形而不取其意， 仿欧拉计划, 答案判题
 │  └─test / 测试文件
 ```
 
+## 部署
+
+* 用sql文件初始化mysql
+* 修改application.yaml中url 用户名 密码 redis端口为本地信息
+* 使用Maven进行构建
+
 ## 项目预览
 
 ![project show](./image/show.gif)
